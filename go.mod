@@ -1,4 +1,4 @@
-module git.leturcq.bzh/mezues/go-recognizer
+module github.com/mezues/go-recognizer
 
 go 1.25.1
 
