@@ -8,7 +8,7 @@ import (
 	"image"
 	"os"
 
-	goFace "github.com/Kagami/go-face"
+	goFace "github.com/mezues/go-face"
 )
 
 // Data descriptor of the human face.
