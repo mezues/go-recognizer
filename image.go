@@ -3,16 +3,17 @@ package recognizer
 import (
 	"crypto/rand"
 	"encoding/hex"
-	goFace "github.com/Kagami/go-face"
-	"github.com/disintegration/imaging"
-	"github.com/fogleman/gg"
-	"github.com/golang/freetype/truetype"
-	"golang.org/x/image/font/gofont/goregular"
 	"image"
 	"image/color"
 	"image/jpeg"
 	"os"
 	"path/filepath"
+
+	"github.com/disintegration/imaging"
+	"github.com/fogleman/gg"
+	"github.com/golang/freetype/truetype"
+	goFace "github.com/mezues/go-face"
+	"golang.org/x/image/font/gofont/goregular"
 )
 
 /*
